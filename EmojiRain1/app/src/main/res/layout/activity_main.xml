@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vivek.emojirain1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/enthusiastic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAP  TO RAIN(ENTHUSIASTIC)"/>
+            <Button
+                android:id="@+id/birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAP TO RAIN(BIRTHDAY)"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/sad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAP TO RAIN(SAD)"/>
+            <Button
+                android:id="@+id/love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAP TO RAIN(LOVE)"/>
+
+
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/happy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to Rain (Happy)" />
+
+
+        <Button
+            android:id="@+id/angry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to Rain(ANGRY) " />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
